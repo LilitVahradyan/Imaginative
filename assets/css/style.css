@@ -1,0 +1,213 @@
+@import "modal.css";
+
+.carousel-item img{
+    height: 400px;
+}
+.carousel-indicators{
+    bottom: -15%
+}
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 50%;
+}
+.carousel-caption{
+    background-color: #adadad;
+    right: 1%;
+    left: auto;
+    width: 500px;
+    text-align: left;
+    padding: 20px;
+}
+.carousel-caption h3{
+    color: #5d5d5d;
+    font-size: 25px;
+    font-family: 'Shakerato-Bold';
+    font-weight: 700;
+}
+.carousel-caption p{
+    color: #383838;
+}
+.corousel-title{
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Shakerato-Bold';
+    font-weight: 700;
+    position: absolute;
+    top: 40%;
+    display: block;
+    left: 50%;
+    letter-spacing: 2px;
+}
+.section-heading{
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 22px
+}
+.section-heading::before,
+.section-heading::after{
+    content: ' ';
+    background-color: #ebebeb;
+    width: calc((100% / 2) - 120px);
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.section-heading::before{
+    left: 0;
+}
+.section-heading::after{
+    right: 0;
+}
+.block-sections{
+    margin: 25px 0;
+}
+.block-sections>div:nth-child(3n+2){
+    margin: 0 25px 20px
+}
+.block-item{
+    width: calc((100% - 50px) / 3);
+    margin-bottom: 20px;
+}
+.block-item .figure,
+.block-one .figure,
+.footer-item .figure{
+    display: contents;
+    box-sizing: content-box;
+}
+.block-item .figure>img{
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
+.block-desc{
+    max-width: 100%;
+    overflow: hidden;
+    color: #999999;
+    font-size: 14px;
+    font-family: 'Shakerato';
+    font-weight: normal;
+}
+.block-title{
+    color: #97455f;
+    font-size: 20px;
+    font-family: 'Shakerato-Bold';
+    font-weight: normal;
+
+}
+.block-one .figure>img{
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+}
+.block-one .block-title{
+    color: #333333;
+}
+.read-more{
+    color: #97455f;
+    font-size: 16px;
+    font-family: 'Shakerato';
+    font-weight: normal;
+}
+.read-more:hover,
+.contact-btn:hover{
+    color: #97455f;
+}
+.read-more::after{
+    content: '\f101';
+    color: #97455f;
+    margin-left: 5px;
+    font-size: 14px;
+    font-family: 'FontAwesome';
+}
+.quote-icon::after{
+    content: '\f10d';
+    font-family: 'FontAwesome';
+    color: #d4d4d4;
+    font-size: 70px;
+}
+.contactUs-section{
+    border-radius: 10px;
+    padding: 25px;
+}
+.contact-title{
+    color: #e5e5e5;
+    
+}
+.contact-title .big-title{
+    font-family: 'Shakerato-Bold';
+    font-weight: 700;
+    font-size: 36px
+}
+.contact-title .subtitle{
+    font-family: 'Shakerato';
+    font-weight: normal;
+    font-size: 20px;
+}
+.contact-btn{
+    font-size: 36px;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #97455f;
+    font-family: 'Shakerato';
+    font-weight: normal;
+}
+.footer{
+    border-top: 5px solid #d2d2d2;
+    background-color: #ebebeb;
+    padding: 0 15px;
+}
+.footer-row{
+    padding: 40px 15px;
+}
+.footer-title{
+    color: #333333;
+    font-size: 22px;
+    font-family: 'Shakerato';
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.footer-item .figure>img{
+    width: 95px;
+    height: 95px;
+    object-fit: cover;
+    padding: 3px;
+    border: 1px solid #d2d2d2
+}
+.contact-info>li,
+.contact-info>li>a{
+    color: #999999;
+    font-size: 14px;
+    line-height: 1.2;
+    font-family: 'Shakerato';
+    font-weight: normal;
+}
+.hours-data{
+    margin-bottom: 5px;
+    font-family: 'Shakerato-Bold';
+    font-weight: 700;
+    font-size: 14px;
+    color: #999999;
+}
+.footer-form .form-control{
+    border: 1px solid #ffffff
+}
+.footer-form .form-control::placeholder{
+    color: #989898;
+    font-family: 'Shakerato';
+    font-weight: normal;
+}
+.footer-bottom{
+    border-top: 1px solid #bcbcbc
+}
+.copy-text{
+    margin-bottom: 0;
+    padding: 10px 0;
+    color: #999999;
+    font-size: 14px;
+    font-family: 'Shakerato';
+    font-weight: normal;
+}

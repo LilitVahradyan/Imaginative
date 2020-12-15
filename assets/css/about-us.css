@@ -1,0 +1,40 @@
+.about-us-img{
+    margin: 0 auto;
+}
+.single-skill{
+    background: #ebebeb;
+    border-radius: 100%;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: bold;
+    height: 200px;
+    position: relative;
+    width: 200px;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin: 30px 0;
+}
+.joomla-skill,
+.html-skill,
+.css-skill,
+.wp-skill{
+    position: absolute;
+    height: 100%;
+    bottom: 0;
+    width: 100%;
+    border-radius: 100%;
+    padding: 70px 0;
+    text-align: center;
+}
+.joomla-skill{
+    background: linear-gradient(to bottom, rgba(242,242,242,1) 0%,rgba(242,242,242,1) 28%,rgba(45,125,164,1) 28%);
+}
+.html-skill{
+    background: linear-gradient(to bottom, rgba(242,242,242,1) 0%,rgba(242,242,242,1) 9%,rgba(106,164,47,1) 9%);
+}
+.css-skill{
+    background: linear-gradient(to bottom, rgba(242,242,242,1) 0%,rgba(242,242,242,1) 32%,rgba(255,189,32,1) 32%)
+}
+.wp-skill{
+    background: linear-gradient(to bottom, rgba(242,242,242,1) 0%,rgba(242,242,242,1) 19%,rgba(219,54,21,1) 19%);
+}

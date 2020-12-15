@@ -1,0 +1,84 @@
+/* Registration Modal */
+.modal-dialog .modal-content {
+    border: 0;
+    border-radius: .125rem;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+}
+.modal-title{
+    font-size: 1.5rem;
+}
+.md-form {
+    position: relative;
+    margin-top: 1.5rem;
+}
+.md-form .prefix {
+    position: absolute;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+}
+.md-form .prefix {
+    top: .25rem;
+    font-size: 1.75rem;
+}
+.grey-text {
+    color: #d2d2d2
+}
+.md-form input{
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+.md-form .prefix ~ input {
+    width: calc(100% - 2.5rem);
+    margin-left: 2.5rem;
+}
+.md-form .validate {
+    margin-bottom: 2.5rem;
+}
+.md-form .form-control {
+    height: auto;
+    padding: .6rem 0 .4rem 0;
+    margin: 0 0 .5rem 0;
+    background-color: transparent;
+    border-radius: 0;
+}
+.md-form .prefix ~ label {
+    margin-left: 2.5rem;
+}
+.md-form>label {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.md-form label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1rem;
+    color: #d2d2d2;
+    cursor: text;
+    -webkit-transition: color .2s ease-out,-webkit-transform .2s ease-out;
+    transition: color .2s ease-out,-webkit-transform .2s ease-out;
+    transition: transform .2s ease-out,color .2s ease-out;
+    transition: transform .2s ease-out,color .2s ease-out,-webkit-transform .2s ease-out;
+    -webkit-transform: translateY(12px);
+    transform: translateY(12px);
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+.sign-up{
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    padding: 0 30px;
+}
